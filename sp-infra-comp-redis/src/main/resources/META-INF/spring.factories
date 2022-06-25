@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.sp.infra.comp.redis.springcache.config.RedisConfig,\
+com.sp.infra.comp.redis.utils.RedisUtils,\
+com.sp.infra.comp.redis.methodcache.aspect.RedisCacheAspect,\
+com.sp.infra.comp.redis.springcache.config.RedisCacheConfig,\
+com.sp.infra.comp.redis.springcache.config.CacheRedisExpireProperties,\
+com.sp.infra.comp.redis.limit.aspect.LimitInterceptor,\
+com.sp.infra.comp.redis.lock.config.RedisLockConfiguration

@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.sp.infra.comp.rocketmq.config.RocketMQConsumerConfig,com.sp.infra.comp.rocketmq.config.RocketMQProducerConfig,\
+  com.sp.infra.comp.rocketmq.utils.RocketMQProducerUtil,com.sp.infra.comp.rocketmq.utils.SpringContextUtil,\
+  com.sp.infra.comp.rocketmq.properties.TopicAndTagProperties,\
+  com.sp.infra.comp.rocketmq.config.RocketMultiProducerConfig,\
+  com.sp.infra.comp.rocketmq.config.RocketMultiConsumerConfig
